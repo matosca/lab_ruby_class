@@ -1,4 +1,4 @@
-require('minitest/autorun')
+# require('minitest/autorun')
 require('minitest/rg')
 require_relative('../codeclan_a_exercise')
 
