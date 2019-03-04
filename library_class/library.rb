@@ -43,6 +43,7 @@ class Library
     for book in @books
       if (title == book[:title])
           book[:rental_details] = rental_details_new_book
+          return book[:rental_details]
       end
     end
   end
